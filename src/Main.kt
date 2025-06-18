@@ -62,9 +62,9 @@ fun playHangman() {
     }
 
     if (game.isWon()) {
-        println("\n🎉 You won! The word was '${game.secretWord}'.")
+        println("\nYou won! The word was '${game.secretWord}'.")
     } else {
-        println("\n💀 Game over! The word was '${game.secretWord}'.")
+        println("\nGame over! The word was '${game.secretWord}'.")
     }
 }
 
